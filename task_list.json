@@ -21,7 +21,7 @@
       "repository": "release_ci",
       "groupId": "org.example.afiproj.job",
       "artifactId": "testing_a",
-      "version": "7.0.1"
+      "version": "7.0.1_LATEST"
     },
     "executionServer": "dev_jobserver",
 	
