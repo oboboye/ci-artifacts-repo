@@ -23,7 +23,7 @@
       "artifactId": "testing_b",
       "version": "7.0.1_LATEST"
     },
-    "executionServer": "dev_jobserver",
+    "executionServer": "dev_jobserver"
 	
 	
     ]
