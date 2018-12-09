@@ -25,20 +25,7 @@
     },
     "executionServer": "dev_jobserver",
 	
-	"triggers": [
-      {
-        "cron": {
-          "label": "FirstCronTrigger",
-          "description": "First cron trigger",
-          "timezone": "JOBSERVER_TIMEZONE",
-          "pauseOnError": true,
-          "minutes": "0,30",
-          "hours": "12,15",
-          "daysOfMonth": "15",
-          "months": "*",
-          "years": "2018"
-        }
-      }
+	
     ]
   }
 ]
