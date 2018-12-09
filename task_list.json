@@ -2,8 +2,37 @@
   {
     "project": "afiproj",
     "task": {
-      "name": "testing_y",
-      "description": "testing_y description",
+      "name": "testing_mq1",
+      "description": "testing_mq1 description",
+      "active": true
+    },
+
+    "parameters": {
+      "contextName": "Default",
+      "applyContextToChildren": false,
+      "logLevel": "Info",
+      "statisticsEnabled": true,
+      "onUnavailableJobServer": "WAIT",
+      "timeout": 1500,
+      "pauseTriggerOnError": false
+    },
+
+    "nexus": {
+      "repository": "release_ci",
+      "groupId": "org.example.afiproj.job",
+      "artifactId": "testing_b",
+      "version": "7.0.1_LATEST"
+    },
+    "executionServer": "dev_jobserver"
+	
+	
+    
+  },
+    {
+    "project": "afiproj",
+    "task": {
+      "name": "testing_mq2",
+      "description": "testing_mq2 description",
       "active": true
     },
 
