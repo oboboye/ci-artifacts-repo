@@ -2,8 +2,8 @@
   {
     "project": "afiproj",
     "task": {
-      "name": "testing_x",
-      "description": "testing_x description",
+      "name": "testing_y",
+      "description": "testing_y description",
       "active": true
     },
 
